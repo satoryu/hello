@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/satoryu/stringutil"
+	. "github.com/satoryu/stringutil"
 )
 
 func main() {
-	fmt.Println(stringutil.Reverse("Hello, World"))
+	fmt.Println(Reverse("Hello, World"))
 }
